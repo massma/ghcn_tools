@@ -1,0 +1,28 @@
+* GHCN data tools
+
+These are [hopefully] self-documenting tools for reading data from the
+GEBA database:
+
+https://www.ncdc.noaa.gov/ghcn-daily-description
+
+** Installation
+
+If you use ~pipenv~ to manage projects, just clone this repository and
+run:
+
+~pipenv install -e /path-to-repository/~
+
+Or, install using pip:
+
+~pip install -e /path-to-repository~
+
+Or, just drop the .py file somewhere in your pythonpath, but then you
+have to make sure dependencies are installed.
+
+** Using
+
+See docstrings:
+
+~help(load_ghcn_meta)~
+~help(load_ghcn_daily)~
+~help(load_ghcn_timeseries)~
